@@ -4,10 +4,25 @@
     box-sizing: border-box;
 }
 
+
+.body-wrapper {
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(-45deg, #515da1, #367dc0, #41283c, #044b1a);
+    background-size: 400% 400%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    animation: backgroundTransition 8s ease-in-out infinite;
+    position: relative;
+}
+
+
 body {
     height: 100vh;
     display: flex;
-    background-color: rgb(188, 248, 228);
+    
 }
 
 .memory-game {
